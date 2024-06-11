@@ -78,7 +78,7 @@ function App() {
           <h2 className='font-bold'>Add a Task</h2>
           <div className='flex gap-5'>
             <input type="text" className='rounded-md py-1 px-2 w-[90%]' onChange={handleChange} value={todo} />
-            <button className='bg-slate-500 py-1 px-2 rounded-md font-semibold w-[10%] disabled:bg-slate-900 text-white' disabled={todo.length<=3} onClick={handleSave}>save</button>
+            <button className='bg-slate-500 md:py-1 md:px-2 rounded-md font-semibold md:w-[10%] px-1 disabled:bg-slate-900 text-white' disabled={todo.length<=3} onClick={handleSave}>save</button>
           </div>
         </div>
         <hr className='border-2 border-slate-800 rounded-full' />

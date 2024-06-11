@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className='w-1/2'>
                     <span className='font-bold text-3xl cursor-default hover:text-red-300'>Taskly</span>
                 </div>
-                <div className='flex gap-9 font-semibold mr-2  '>
+                <div className='gap-9 font-semibold mr-2 md:flex hidden'>
                     <li className='hover:text-red-300 cursor-pointer'>Home</li>
                     <li className='hover:text-red-300 cursor-pointer'>About</li>
                     <li className='hover:text-red-300 cursor-pointer'>Contact Us</li>
