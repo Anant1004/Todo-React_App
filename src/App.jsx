@@ -70,7 +70,7 @@ function App() {
   return (
     <>
     <Navbar/>
-      <div className="container w-full mx-auto mt-5 rounded-lg bg-slate-300 font-['Montserrat'] flex-col p-3">
+      <div className="container w-full md:mx-auto mt-5 rounded-lg bg-slate-300 font-['Montserrat'] flex-col p-3">
         <div className='w-full flex items-center justify-center'>
           <h1 className='font-bold'>Master Your Tasks with Taskly</h1>
         </div>
